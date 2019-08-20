@@ -19,7 +19,11 @@
 #####替换kafka集群地址  topic  就可以直接使用
 
 
+
 #####更多kafka的知识，欢迎关注实时流式计算
+
+
+![file](https://graph.baidu.com/resource/212bba5dab455b08fe99001566280018.png)
 #####qq群：834948189
 
 
