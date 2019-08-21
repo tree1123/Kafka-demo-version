@@ -22,7 +22,7 @@
 
 #####更多kafka的知识，欢迎关注实时流式计算
 
-![](https://img2018.cnblogs.com/blog/1089984/201908/1089984-20190821101442416-1639279747.jpg)
+![](https://github.com/tree1123/Kafka-demo-version/blob/master/qrcode_for_gh_69ef1361df3b_258.jpg)
 
 #####qq群：834948189
 
