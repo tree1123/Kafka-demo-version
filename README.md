@@ -22,8 +22,8 @@
 
 #####更多kafka的知识，欢迎关注实时流式计算
 
+![](https://img2018.cnblogs.com/blog/1089984/201908/1089984-20190821101457223-935290825.jpg)
 
-![file](https://graph.baidu.com/resource/212bba5dab455b08fe99001566280018.png)
 #####qq群：834948189
 
 
