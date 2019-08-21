@@ -1,5 +1,9 @@
 package com.tree.oldversion;
-
+/**
+ * ues it before version 0.9
+ * user customize Partitioner
+ * https://cwiki.apache.org/confluence/display/KAFKA/0.8.0+Producer+Example
+ */
 import kafka.producer.Partitioner;
 import kafka.utils.VerifiableProperties;
 

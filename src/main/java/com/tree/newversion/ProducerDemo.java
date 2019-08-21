@@ -1,14 +1,15 @@
 package com.tree.newversion;
 
-import java.util.Properties;
 
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerRecord;
 /**
  * ues it after version 0.9
  *
- * https://cwiki.apache.org/confluence/display/KAFKA/0.8.0+Producer+Example
+ * http://kafka.apache.org/23/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html
  */
+import java.util.Properties;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
 public class ProducerDemo {
 
 	public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class ProducerDemo {
 		properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		KafkaProducer<String, String> kafkaProducer = new KafkaProducer<String, String>(properties);
-		kafkaProducer.send(new ProducerRecord<String, String>("topic", "value"));
+		kafkaProducer.send(new ProducerRecord<>("topic", "value"));
 		kafkaProducer.close();
 
 	}
